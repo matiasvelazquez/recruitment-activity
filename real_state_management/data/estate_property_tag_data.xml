@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+
+    <record id="cozy_ept" model="estate.property.tag">
+        <field name="name">Cómoda</field>
+    </record>
+
+    <record id="renovated_ept" model="estate.property.tag">
+        <field name="name">Renovado</field>
+    </record>
+
+    <record id="near_schools_ept" model="estate.property.tag">
+        <field name="name">Cercano a escuelas</field>
+    </record>
+
+    <record id="great_views_ept" model="estate.property.tag">
+        <field name="name">Lindas Vistas</field>
+    </record>
+
+    <record id="amenities_ept" model="estate.property.tag">
+        <field name="name">Amenities</field>
+    </record>
+</odoo>

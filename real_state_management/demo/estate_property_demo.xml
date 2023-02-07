@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+
+    <record id="house_1" model="estate.property">
+        <field name="name">Casa Celeste</field>
+        <field name="description">Casa con vista al Rio</field>
+        <field name="postcode">121212</field>
+        <field name="date_availability">2023-02-28</field>
+        <field name="expected_price">1000</field>
+        <field name="selling_price">1500</field>
+        <field name="bedrooms">4</field>
+        <field name="living_area">400</field>
+        <field name="garden_area">100</field>
+        <field name="garden">1</field>
+        <field name="property_type_id" ref="real_state_management.house"/>
+        <field name="tag_ids" eval="[(6, 0, [ref('real_state_management.great_views_ept'), ref('real_state_management.near_schools_ept')])]"/>
+    </record>
+
+    <record id="house_2" model="estate.property">
+        <field name="name">Casa Roja</field>
+        <field name="description">Casa con vista a la montaña</field>
+        <field name="postcode">131313</field>
+        <field name="date_availability">2023-04-22</field>
+        <field name="expected_price">900</field>
+        <field name="selling_price">1600</field>
+        <field name="bedrooms">3</field>
+        <field name="living_area">450</field>
+        <field name="garden_area">50</field>
+        <field name="garden">1</field>
+        <field name="property_type_id" ref="real_state_management.house"/>
+        <field name="tag_ids" eval="[(6, 0, [ref('real_state_management.cozy_ept')])]"/>
+    </record>
+
+    <record id="apartment_1" model="estate.property">
+        <field name="name">Apartamento Verde</field>
+        <field name="description">Con vista del parque</field>
+        <field name="postcode">68212</field>
+        <field name="date_availability">2023-02-28</field>
+        <field name="expected_price">700</field>
+        <field name="selling_price">1200</field>
+        <field name="bedrooms">2</field>
+        <field name="living_area">150</field>
+        <field name="property_type_id" ref="real_state_management.apartment"/>
+        <field name="tag_ids" eval="[(6, 0, [ref('real_state_management.great_views_ept')])]"/>
+    </record>
+
+    <record id="apartment_2" model="estate.property">
+        <field name="name">Apartamento Amarillo</field>
+        <field name="description">En el centro de la ciudad</field>
+        <field name="postcode">2323</field>
+        <field name="expected_price">1200</field>
+        <field name="selling_price">1500</field>
+        <field name="bedrooms">1</field>
+        <field name="living_area">80</field>
+        <field name="property_type_id" ref="real_state_management.apartment"/>
+        <field name="tag_ids" eval="[(6, 0, [ref('real_state_management.renovated_ept'), ref('real_state_management.amenities_ept')])]"/>
+    </record>
+
+</odoo>
