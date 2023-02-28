@@ -62,6 +62,7 @@
                                 <field name="garden_orientation"/>
                                 <field name="total_area" string="Total area (sqm)"/>
                                 <field name="state"/>
+                                <field name="Operation_type" string="Tipo de Operacion"/>
                             </group>
                         </page>
                         <page string='Offers'>
